@@ -12,7 +12,7 @@ import { useState } from 'react';
 
 const WeatherApp = () => {
 
-    let api_key = "cf4c3de6aae8abdd7e0617fd7f5450e3";
+    let api_key = "";
 
     const [Wicon, setWicon] = useState(cloud); 
 
