@@ -22,6 +22,8 @@ const WeatherApp = () => {
         if (element[0].value === "") {
             return 0;
         }
+
+        console.log(element[0].value)
         let url = `https://api.openweathermap.org/data/2.5/weather?q=${element[0].value}&units=Metric&appid=${api_key}`
     
     
@@ -67,11 +69,16 @@ const WeatherApp = () => {
     return (
         <div className='container'>
             <div className="topbar">
-                <div className="search-icon" onClick={() => { search() }}>
-                <input type="text" className="city-input" placeholder='Search'/>
+                <div className="search-icon">
+                <input type="text" className="city-input" placeholder='City Name'/>
+                    <button className='button' onClick={() => {
+                        search()
+                    }}>
+                        Search
+                    </button>
                 </div>
-
             </div>
+           
             <div className="weather-image">
                 <img src={Wicon} alt="" />
             </div>
