@@ -1,3 +1,6 @@
+This is a simple web application I've developed to demonstrate my knowledge of JavaScript and my skills in working with external APIs. The Weather app allows users to look up weather information for different cities around the world. It showcases my ability to create single-page applications and integrate data from external APIs.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
